@@ -17,11 +17,15 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <h1>Select your Gender</h1>
-      <ul style={{ listStyleType: 'disc'}}>
-        <li onClick={shirt} className="male">Male</li>
-        <li onClick={dress}>Female</li>
-      </ul>
-      <h3>Select your {uniform} size</h3>
+        <label onClick={shirt}>
+        <input type="radio"></input>
+        Male
+      </label>
+      <label onClick={dress}>
+        <input type="radio"></input>
+        Female
+      </label>
+      <h2>Select your {uniform} size</h2>
       {
         male ? (
           <select >
