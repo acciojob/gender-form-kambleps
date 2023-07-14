@@ -29,17 +29,17 @@ const App = () => {
       {
         male ? (
           <select >
-            <option>Select Size</option>
-            <option>Small</option>
-            <option>Medium</option>
-            <option>Large</option>
+            <option value="1">Select Size</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
           </select>
         ):(
           <select>
-            <option>Select Size</option>
-            <option>2</option>
-            <option>4</option>
-            <option>6</option>
+            <option value="1">Select Size</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
           </select>
         )
       }
